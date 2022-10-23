@@ -5,6 +5,10 @@ import (
 
     "github.com/gocolly/colly"
 )
+// Falabella website - https://www.bancofalabella.com.co
+
+// Will get all the information of the day of the transactions
+// of the company Falabella
 
 func main() {
     c := colly.NewCollector(
